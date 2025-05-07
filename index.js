@@ -140,13 +140,13 @@ function showResult(){
           return;
         }else
         if(nameInput.value.trim().toLowerCase()!==userName){
-          alert(`You're not supposed to be here my guy. go away😑`)
+          alert(`Sorry but you lack authorization to proceed. Your're journey ends here🤝`)
     
         }else{
         document.body.classList.add('apology');
         quizSection.innerHTML=`
-        <h1 class="sarah-h1">If your reading this it means your Sarah. Hey babes👋. It's now 1:10 am as of the time I am writing this. I am listening to weird indian songs.Yeah my mind is blank. Enda uuze uji🗣️😂😂. The background image is a city view of paris. Romantic right😏 Fun fact did you know the Eifel Tower is very tall👀. Anyways, lemme go to sleep 🚶‍♂️‍➡️<p>
-        Yours truly,<br>The Bitch Assessor™  </br>
+        <h1 class="sarah-h1">If your reading this it means your Sarah. Hey babes👋. It's now 1:10 am as of the time I am writing this. I am listening to weird indian songs.Yeah.... my mind is blank. Enda uuze uji🗣️😂😂. The background image is a city view of paris. Romantic right😏 Fun fact did you know the Eifel Tower is very tall👀. Anyways, lemme go to sleep 🚶‍♂️‍➡️<p>
+        Yours truly,<br>The Bitch Assessor™</br>
         </p></h1>
         `}
       })      
@@ -158,7 +158,7 @@ function showResult(){
           alert('Enter something')
         }
         if(userName!==nameInput.value.trim().toLowerCase()){
-          alert(`You're not allowed to proceed by the admin. byeeeeee`)
+          alert(`Sorry but you lack authorization to proceed. Your're journey ends here🤝`)
           return;
         }else{
         document.body.classList.add('apology');
