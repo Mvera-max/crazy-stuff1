@@ -1,0 +1,102 @@
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  font-family: poppins, sans-serif;
+}
+p{
+  font-size: 20px;
+  word-spacing: 2px;
+}
+
+.start-btn{
+  padding: 0.7em 1em;
+  font-size:18px;
+  border:none;
+  color:white;
+  background: green;
+  border-radius:12px;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+.start-btn:active{
+  transform: scale(0.8);
+}
+
+
+.surprise-btn{
+  padding:0.7em 1.5em;
+  font-size: 18px;
+  border:none;
+  color:white;
+  background-color: red;
+  font-weight: bold;
+  border-radius:1em;
+}
+
+.apology{
+  background-image: url(a0d8353c5bbaf986daaa0edcaa2b96ca.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+}
+
+.sarah-h1{
+  background: white;
+  opacity: 0.7;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+/*question styling*/
+
+.answer-div,.verify-div{
+  display: flex;
+  width: 100%;
+}
+.answer-input, .sarah-name{
+  margin-right:20px;
+  flex:1;
+  font-family:merrieweather, sans-serif;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.submit-button,#name-btn{
+  padding: 0.5em 1em;
+  border: none;
+  color: white;
+  background: blue;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.submit-button:active, #name-btn:active{  
+  transform: scale(0.8);
+}
+
+#apology{
+ margin-top: 20%;
+ padding: 1em;
+  background: rgb(94, 94, 205);
+  color: white;
+  border: 1px solid black;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#apology:hover{
+  background: #c2e9fb;
+  color:black;
+  transform: scale(1.05);
+}
+#apology:active{
+  background: lightblue;
+  color:black;
+  transform: scale(0.8);
+}
